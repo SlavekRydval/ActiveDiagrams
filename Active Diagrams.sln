@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Active Diagrams", "Active Diagrams\Active Diagrams.csproj", "{1B387863-CDB6-4E78-9278-5765DD96A0CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B387863-CDB6-4E78-9278-5765DD96A0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B387863-CDB6-4E78-9278-5765DD96A0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B387863-CDB6-4E78-9278-5765DD96A0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B387863-CDB6-4E78-9278-5765DD96A0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1617766-3E96-4B1A-914C-F2FBAA3302E6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kulikina.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Active\u0020Diagrams\\Active\u0020Diagrams.csproj
+		SccProjectName1 = Active\u0020Diagrams
+		SccLocalPath1 = Active\u0020Diagrams
+	EndGlobalSection
+EndGlobal

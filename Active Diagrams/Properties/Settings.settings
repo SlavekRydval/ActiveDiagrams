@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Active_Diagrams.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ADTaskPaneWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">330</Value>
+    </Setting>
+    <Setting Name="ADTaskPaneHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+    <Setting Name="ADTaskPaneColumnPropertyWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">130</Value>
+    </Setting>
+    <Setting Name="ADTaskPaneDockPosition" Type="Microsoft.Office.Core.MsoCTPDockPosition" Scope="User">
+      <Value Profile="(Default)">msoCTPDockPositionFloating</Value>
+    </Setting>
+    <Setting Name="ADTaskPaneVisible" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FindCaseSensitive" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FindExactMatch" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FindRegEx" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SelectDiagramActivePage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SearchResultDiagramNameWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">127</Value>
+    </Setting>
+    <Setting Name="SearchResultDiagramTypeWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">130</Value>
+    </Setting>
+    <Setting Name="SearchResultDiagramAuthorWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">118</Value>
+    </Setting>
+    <Setting Name="SearchResultDiagramStereotypeWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">110</Value>
+    </Setting>
+    <Setting Name="PreviewLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 19</Value>
+    </Setting>
+    <Setting Name="PreviewSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">282, 253</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

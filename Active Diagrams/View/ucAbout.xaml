@@ -7,6 +7,7 @@
              mc:Ignorable="d" Height="497.621" Width="397">
 
 
+
     <UserControl.Resources>
         <ResourceDictionary>
             <BitmapImage x:Key="AboutImage" UriSource="pack://application:,,,/Active Diagrams;component/Resources/WordEA.png" />

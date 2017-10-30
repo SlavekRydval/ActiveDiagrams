@@ -1,4 +1,6 @@
-﻿using Microsoft.Office.Tools;
+﻿using Active_Diagrams.View;
+using Active_Diagrams.ViewModel;
+using Microsoft.Office.Tools;
 using System;
 using System.Windows.Forms;
 using Word = Microsoft.Office.Interop.Word;
@@ -11,8 +13,12 @@ namespace Active_Diagrams
         private DiagramInfoTaskPane adTaskPaneControl = new DiagramInfoTaskPane();
         public CustomTaskPane adCustomTaskPane = null;
 
+        internal MainViewModel mainViewModel { get; private set; }
+
         private void ThisAddIn_Startup(object sender, EventArgs e)
         {
+            mainViewModel = new MainViewModel(new DefaultDialogs());
+
             Globals.ThisAddIn.Application.WindowSelectionChange += Application_WindowSelectionChange;
 
             adCustomTaskPane = this.CustomTaskPanes.Add(adTaskPaneControl, "Active Diagrams");

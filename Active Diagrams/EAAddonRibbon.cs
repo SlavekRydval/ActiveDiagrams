@@ -15,7 +15,6 @@ namespace Active_Diagrams
     public partial class EAAddonRibbon
     {
 
-        WordEAInterface WordEA = new WordEAInterface();
 
         private void EAAddonRibbon_Load(object sender, RibbonUIEventArgs e)
         {
@@ -26,6 +25,28 @@ namespace Active_Diagrams
             WordEA.CloseEARepository();
             WordEA.ExitRepository();
         }
+
+        /// <summary>
+        /// React on About button and shows About dialog. 
+        /// MVVM ready.
+        /// </summary>
+        /// <param name="sender">Sender of an event.</param>
+        /// <param name="e">Event parameters.</param>
+        private void btnAbout_Click(object sender, RibbonControlEventArgs e) => Globals.ThisAddIn.mainViewModel.cmdAbout.Execute(null);
+
+
+
+
+
+        private void btnOpenHomepage_Click(object sender, RibbonControlEventArgs e) => Globals.ThisAddIn.mainViewModel.cmdOpenWebBrowser.Execute("http://odkazy.rydval.cz/activediagrams");
+
+
+
+        // Should be a part of a MVVM component
+        WordEAInterface WordEA = new WordEAInterface();
+
+
+
 
 
         private string GetAndSetEAPConnectionStringForm()
@@ -148,7 +169,6 @@ namespace Active_Diagrams
             */
         }
 
-        private void btnAbout_Click(object sender, RibbonControlEventArgs e) => (new View.About()).ShowDialog();
 
         private void cbShowTaskPane_Click(object sender, RibbonControlEventArgs e)
         {
@@ -170,9 +190,5 @@ namespace Active_Diagrams
             
         }
 
-        private void btnOpenHomepage_Click(object sender, RibbonControlEventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://odkazy.rydval.cz/activediagrams");
-        }
     }
 }

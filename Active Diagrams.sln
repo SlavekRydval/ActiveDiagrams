@@ -22,13 +22,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1617766-3E96-4B1A-914C-F2FBAA3302E6}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://kulikina.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Active\u0020Diagrams\\Active\u0020Diagrams.csproj
-		SccProjectName1 = Active\u0020Diagrams
-		SccLocalPath1 = Active\u0020Diagrams
-	EndGlobalSection
 EndGlobal

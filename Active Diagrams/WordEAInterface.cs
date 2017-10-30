@@ -36,8 +36,12 @@ namespace Active_Diagrams
             this.Type = Type;
             this.CreatedAt = CreatedAt;
             this.ModifiedAt = ModifiedAt;
+        }
     }
-}
+
+
+   
+
 
     public class EAPackage
     {
